@@ -1,0 +1,98 @@
+body
+{
+    margin: 0px auto;
+    font-family: 'Roboto', Verdana;
+    background-color: #DADADA;
+}
+
+.debug
+{
+    z-index: 9999;
+    background-color: rgba(255, 0, 0, 0.5);
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+#header
+{
+    background-image: url(../img/header.jpg);
+    background-size: 100% auto;
+    height: 200px;
+    box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.63);
+
+}
+
+#menu
+{
+  z-index: 9999;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+  padding-top: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  /*background-color: #2C3E50;*/
+  width: 100%;
+  height: 42px;
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  /*box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.63);
+  border-bottom: 10px solid #22313F;*/
+  border-bottom: 10px solid rgba(0, 0, 0, 0.1);
+}
+
+#menu a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#menu a:hover
+{
+    color: darkgoldenrod;
+    text-decoration: underline;
+}
+
+#pagina
+{
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 30px;
+}
+
+#footer
+{
+    text-align: left;
+    border-top: 20px solid #22313F;
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    background-color: #2C3E50;
+    width: 100%;
+}
+
+.knop
+{
+    border-radius: 3px;
+    border: 2px solid #22313F;
+    background-color: #2C3E50;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.knop:hover
+{
+    border: 2px solid #385169;
+    background-color: #577b9e;
+}
+.knop:active
+{
+    border: 2px solid #22313F;
+    background-color: #1f2b38;
+}
