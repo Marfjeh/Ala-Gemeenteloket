@@ -2,7 +2,181 @@ body
 {
     margin: 0px auto;
     font-family: 'Roboto', Verdana;
-    background-color: #DADADA;
+    background-color: #F4F4F4;
+}
+
+#header
+{
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    height: 150px;
+    box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.63);
+    padding-top: 100px;
+}
+
+#menu
+{
+  text-align: center;
+  padding-top: 10px;
+  background-color: #46AA42;
+  width: 100%;
+  height: 42px;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid #409C3D;
+}
+
+#menu a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#menu a:hover
+{
+    background: #409C3D;
+    text-decoration: underline;
+}
+
+#pagina
+{
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 30px;
+}
+
+#content
+{
+  background: white;
+  border: #E7E7E7 solid 1px;
+  padding-left: 5px;
+}
+
+#content-home
+{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#footer
+{
+    text-align: left;
+    border-top: 5px solid #409C3D;
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    background-color: #46AA42;
+    width: 100%;
+}
+
+#content h1
+{
+  color: #46AA42;
+  font-size: 20px;
+  border-bottom: 1px dashed #E7E7E7;
+}
+
+#content h2
+{
+  color: #46AA42;
+  font-size: 18px;
+  text-align: center;
+}
+
+.knop
+{
+    border-radius: 2px;
+    border: 2px solid #22313F;
+    background-color: #D0003E;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.knop:hover
+{
+    border: 2px solid #385169;
+    background-color: #B70339;
+}
+.knop:active
+{
+    border: 2px solid #22313F;
+    background-color: #1f2b38;
+}
+
+label
+{
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.css-input
+{
+  position: absolute;
+  left: 56%;
+  font-size:21px;
+  border: none;
+  border-radius: 2px;
+  border-bottom: 2px solid #B70339;
+}
+
+.css-input:focus
+{
+  outline:none;
+}
+
+fieldset
+{
+  background-color: #F4F4F4;
+  border: 1px #E7E7E7 solid;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+legend
+{
+  padding: 5px;
+  background-color: #46AA42;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+#map 
+{
+  width: 100%;
+  height: 400px;
+  border-radius: 2px;
+  border-bottom: 2px solid #B70339;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#slideShowImages 
+{
+  width: 100%;
+}   
+  
+#slideShowImages img 
+{ 
+  width: 100%;
+  padding: 3px;
+}  
+
+#element
+{
+  background-color: #F4F4F4;
+  border: 1px #E7E7E7 solid;
+  height: 470px;
+  padding: 5px;
 }
 
 .debug
@@ -15,84 +189,35 @@ body
     width: 100%;
 }
 
-#header
+.rechts
 {
-    background-image: url(../img/header.jpg);
-    background-size: 100% auto;
-    height: 200px;
-    box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.63);
-
+float: right;
+padding-right: 20px;
 }
 
-#menu
+
+#menu li{
+  list-style-type: none;
+  display: inline;
+  padding-bottom: 5px;
+}
+
+.links
 {
-  z-index: 9999;
-  position: fixed;
-  top: 0px;
-  left: 0px;
+  float: left;
+  padding-left: 20px;
+}
+
+.loader {
   text-align: center;
-  padding-top: 10px;
-  background-color: rgba(0, 0, 0, 0.3);
-  /*background-color: #2C3E50;*/
-  width: 100%;
-  height: 42px;
-  background-image: url(../img/logo.png);
-  background-repeat: no-repeat;
-  /*box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.63);
-  border-bottom: 10px solid #22313F;*/
-  border-bottom: 10px solid rgba(0, 0, 0, 0.1);
-}
-
-#menu a
-{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-#menu a:hover
-{
-    color: darkgoldenrod;
-    text-decoration: underline;
-}
-
-#pagina
-{
-    padding-top: 30px;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 30px;
-}
-
-#footer
-{
-    text-align: left;
-    border-top: 20px solid #22313F;
-    color: white;
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    text-align: center;
-    background-color: #2C3E50;
-    width: 100%;
-}
-
-.knop
-{
-    border-radius: 3px;
-    border: 2px solid #22313F;
-    background-color: #2C3E50;
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
-}
-.knop:hover
-{
-    border: 2px solid #385169;
-    background-color: #577b9e;
-}
-.knop:active
-{
-    border: 2px solid #22313F;
-    background-color: #1f2b38;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9;
+	background: white;
+	background-image: url(../img/load.gif);
+	background-position: center;
+	background-repeat: no-repeat;
 }

@@ -1,12 +1,9 @@
-<div id="menu"></div>
-<div id="header"></div>
-<script>
-        if (detectMob() == true) //Mobile browser detected
-        {
-                addtoElement("menu", "<button class='knop' onclick='' id='menubutton' style='float: left;'><img src='img/menu_button.png'/></button>");
-        }
-        else // Desktop
-        {
-                addtoElement("menu", "<a href='index.php'>Home </a> - <a href='blog.php'>Infromatie </a> - <a href='oefenen/index.php'>afspraak </a> - <a href='contact.php'>Tourisme</a>");
-        }
-</script>
+<div id="header">
+</div>
+<div id="menu">
+  <ul class="rechts">
+    <li><a href='index.php'>Home </a></li> - 
+    <li><a href='afspraak.php'>afspraak </a> - 
+    </li><a href='tourist.php'>Tourisme / Tourist page </a></li>
+  </ul>
+</div>

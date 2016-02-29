@@ -3,14 +3,29 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Gemeenteloket">
-    <meta name="keywords" content="Gemeenteloket">
+    <meta name="description" content="Gemeente Bordeaux">
+    <meta name="keywords" content="Gemeenteloket, Gemeente Bordeaux, Gemeente, Bordeaux, Frankrijk">
     <meta name="author" content="Marvin Ferwerda, Robin Kuijpers">
     <title>Gemeente Bordeaux</title>
     <script src="js/jquery-2.2.0.min.js"></script>
     <script src="js/mff.js">//MarfFrameWork</script>
     <script src="js/alertify.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/jquery.timepicker.js"></script>
+    <script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
+    <script type="text/javascript" src="js/slideShow.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/jquery.timepicker.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-datepicker.css" />
     <link rel="stylesheet" type="text/css" href="css/alertify.css" id="alertifyCSS">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script>
+        $(window).load(function() {
+        	$(".loader").fadeOut("slow");
+        });
+    </script>
 </head>
 <body id="page">
+    <div class="loader">
+        <br><br><img src="img/logo.png" style="margin-top: -4px;"></img>
+    </div>
